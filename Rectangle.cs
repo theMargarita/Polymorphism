@@ -14,7 +14,7 @@
         public override double Area()
         {
             double area = Base * Hight;
-            Console.WriteLine($"The rectangle area: {area} area units");
+            Console.WriteLine($"Area of rectangle: {area} area units");
             return area;
         }
     }

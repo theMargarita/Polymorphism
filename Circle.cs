@@ -12,7 +12,7 @@
         public override double Area()
         {
             double area = Radius * Radius * Pi;
-            Console.WriteLine($"The cicle area: {area} area units");
+            Console.WriteLine($"Area of circle: {area} area units");
             return area;
         }
     }

@@ -12,7 +12,7 @@
         public override double Area()
         {
             double area = Side * Side;
-            Console.WriteLine($"The square area: {area} area units");
+            Console.WriteLine($"Area of square: {area} area units");
             return area;
         }
     }
