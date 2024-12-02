@@ -1,13 +1,14 @@
 ﻿namespace Polymorphism
 {
+    //polymorphism means "many forms" 
     internal class Program
     {
         static void Main(string[] args)
         {
-            Circle circle = new Circle();
-            Rectangle rectangle = new Rectangle();
-            Square square = new Square();
-            Triangle triangle = new Triangle();
+            Geometry circle = new Circle();
+            Geometry rectangle = new Rectangle();
+            Geometry square = new Square();
+            Geometry triangle = new Triangle();
 
             Geometry[] geometrys = { circle, rectangle, square, triangle};
 
