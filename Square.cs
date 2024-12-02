@@ -9,11 +9,10 @@
             Side = 6;
         }
 
-        public override double Area()
+        public override void Area()
         {
             double area = Side * Side;
             Console.WriteLine($"Area of square: {area} area units");
-            return area;
         }
     }
    

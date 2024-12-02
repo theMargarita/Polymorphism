@@ -9,11 +9,10 @@
             Base = 7;
             Hight = 9;
         }
-        public override double Area()
+        public override void Area()
         {
             double area = (Base * Hight) / 2;
             Console.WriteLine($"Area of triangle: {area} area units");
-            return area;
         }
     }
 
